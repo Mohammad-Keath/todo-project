@@ -1,0 +1,108 @@
+#logo {
+height: 100px;
+margin: auto;
+}
+header {
+
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+#mainTitle {
+    
+   margin-top :-80px;
+   font-size: 40px;
+   font:bold;
+   text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin-top:30px;
+   overflow: hidden;
+   background-color: gray;
+   text-align: center;
+}
+header ul li{
+    
+    float:left;
+    border-right: 1px solid white;
+   
+}
+header ul li a{
+    display: block;
+    color: white;
+    padding: 15px;
+    padding-right:40px ;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+
+main { 
+    margin: 5%;
+    margin-top: 100px;
+   font-size: 130%;
+}
+main h3{
+    font-size: 150%;
+    font: bold;
+    margin-bottom: 2%;
+    
+
+}
+#myPhoto{
+    height: 120px;
+}
+main div{
+    margin-left: 60%;
+    margin-top: -240px;
+}
+main div a{
+    position: absolute;
+    text-decoration: none;
+    margin-top: 8px;
+    color: black;
+    padding: 8px;
+    border: 1px solid ;
+    background-color:lightgray;
+}
+footer{
+    text-align: center;
+    
+    padding: 10px;
+    background-color: gray;
+    color: azure;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+a:hover{
+    background-color: green;
+}
+a:active{
+    background-color:darkgreen ;
+}
+td{
+    background-color: antiquewhite;
+}
+.greenAnswer {
+    color: green;
+    background-color: lightgreen;
+
+}
+.red {
+    color: red;
+    background-color: lightcoral;
+
+}
+table, th , td{
+    margin: 20px;
+    padding: 40px 100px 40px 100px;
+    border: 3px solid black;
+}
+th{
+    font-size: 27px;
+    font: bold;
+    background-color: lightgray;
+}
+
