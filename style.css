@@ -2,37 +2,47 @@
 height: 100px;
 margin: auto;
 }
-header {
+header div {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    color: white;
 
+}
+header {
     background-color: lightgreen;
     border: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 #mainTitle {
     
-   margin-top :-80px;
+   margin-top :30px;
    font-size: 40px;
    font:bold;
-   text-align: center;
+ 
+  
 }
 
 header ul {
     list-style-type: none;
-    margin-top:30px;
    overflow: hidden;
    background-color: gray;
-   text-align: center;
+   display: flex;
+   justify-content: space-evenly;
 }
 header ul li{
     
     float:left;
-    border-right: 1px solid white;
+    
    
 }
 header ul li a{
     display: block;
     color: white;
-    padding: 15px;
-    padding-right:40px ;
+    padding: 15px 150px 15px 150px;
     font-size: 18px;
     text-decoration: none;
    
@@ -40,8 +50,11 @@ header ul li a{
 
 main { 
     margin: 5%;
-    margin-top: 100px;
+    margin-top: 15%;
    font-size: 130%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
 }
 main h3{
     font-size: 150%;
@@ -52,11 +65,9 @@ main h3{
 }
 #myPhoto{
     height: 120px;
+    border: 2px solid black;
 }
-main div{
-    margin-left: 60%;
-    margin-top: -240px;
-}
+
 main div a{
     position: absolute;
     text-decoration: none;
@@ -103,6 +114,12 @@ table, th , td{
 th{
     font-size: 27px;
     font: bold;
+    background-color: gray;
+}
+input {
+    background-color: gray;
+    color: white;
+}
+body {
     background-color: lightgray;
 }
-
